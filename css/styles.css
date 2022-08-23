@@ -147,6 +147,8 @@ ul {
 /*Style main*/
 /*Hero*/
 .hero {
+    text-align: center;
+
     height: 600px;
     max-width: 1600px;
     margin-left: auto;
@@ -154,8 +156,12 @@ ul {
     padding-top: 200px;
     padding-bottom: 200px;
 
-    background: #2F303A;
-    text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)) url('../images/Img-hero.jpg');
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+
+    
 }
 
 .hero-text {
