@@ -147,6 +147,10 @@ ul {
 /*Style main*/
 /*Hero*/
 .hero {
+    height: 600px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
 
