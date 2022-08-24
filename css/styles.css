@@ -213,6 +213,27 @@ ul {
     margin-left: 30px;
 }
 
+.icon-bg {
+    height: 120px;
+    width: 270px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+
+    background-color: #F5F4FA;
+    border-radius: 4px;
+
+}
+
+.icon-pref {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70px;
+    height: 70px;
+}
 
 .pref-title {
     font-weight: 700;
@@ -308,9 +329,42 @@ ul {
 
 .team-info {
     padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 0;
     padding-bottom: 30px;
 }
 
+.links-team {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 100%;
+}
+
+.icon-team {
+    display: block;
+    margin: 12px;
+    fill: #AFB1B8;
+}
+
+
+.social-links .links-team + .links-team {
+    margin-left: 10px;
+}
+
+.icon-team:hover {
+    fill: var(--primary-white-color);
+    background-color: var(--primary-blue-color);
+}
+
+.links-team:hover {
+    background-color: var(--primary-blue-color);
+}
 
 /*Style footer*/
 .footer {
