@@ -418,6 +418,11 @@ ul {
     background: #2F303A;
 }
 
+.supp-flex {
+    display: flex;
+    align-items: center;
+}
+
 .footer-logo {
     display: flex;
     margin-bottom: 20px;
@@ -461,6 +466,10 @@ ul {
 .footer-cont,
 .address {
     text-decoration: none;
+}
+
+.join-in {
+    margin-left: 70px;
 }
 
 .social-links-title {
