@@ -133,12 +133,24 @@ ul {
 }
 
 .nav-cont-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    fill: currentColor;
     color: var(--primary-text-color);
+
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
+.icon-contact {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
 .nav-cont-link:hover,
 .nav-cont-link:focus {
     color: var(--primary-blue-color);
