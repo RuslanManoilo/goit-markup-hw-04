@@ -227,11 +227,12 @@ ul {
 }
 
 .icon-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 120px;
     width: 270px;
 
-    padding-top: 25px;
-    padding-bottom: 25px;
     margin-bottom: 30px;
 
     background-color: #F5F4FA;
@@ -240,10 +241,6 @@ ul {
 }
 
 .icon-pref {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
     width: 70px;
     height: 70px;
 }
@@ -334,6 +331,7 @@ ul {
 
 .team-prof {
     text-align: center;
+    margin-bottom: 16px;
 
     font-size: 16px;
     line-height: 1.1875;
@@ -342,14 +340,13 @@ ul {
 
 .team-info {
     padding-top: 30px;
-    padding-bottom: 16px;
+    padding-bottom: 30px;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
     padding: 0;
-    padding-bottom: 30px;
 }
 
 .social-link + .social-link {
@@ -373,7 +370,8 @@ ul {
     fill: currentColor;
 }
 
-.link-team:hover {
+.link-team:hover,
+.link-team:focus {
     background-color: var(--primary-blue-color);
     color: var(--primary-white-color);
 }
@@ -420,9 +418,12 @@ ul {
     fill: currentColor;
 }
 
-.customer-item:hover {
+.customer-item:hover,
+.customer-item:focus {
     background-color: var(--primary-white-color);
-    color: #2196f3;
+    border: 1px solid var(--primary-blue-color);
+    border-radius: 4px;
+    color: var(--primary-blue-color);
 }
 
 /*Style footer*/
@@ -432,7 +433,7 @@ ul {
 
 .supp-flex {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -502,7 +503,6 @@ ul {
     display: flex;
     justify-content: center;
     padding: 0;
-    padding-bottom: 30px;
 }
 
 .social-footer+.social-footer {
@@ -527,7 +527,8 @@ ul {
     fill: currentColor;
 }
 
-.link-footer:hover {
+.link-footer:hover,
+.link-footer:focus {
     background-color: var(--primary-blue-color);
     color: var(--primary-white-color);
 }
@@ -556,7 +557,9 @@ ul {
     font-size: 16px;
     letter-spacing: 0.03em;
     line-height: 1.625;
+
     color: var(--primary-black-color);
+
     border: none;
     cursor: pointer;
 
@@ -594,6 +597,9 @@ ul {
 */
 
 .link-decor {
+    display: block;
+    background-color: var(--primary-white-color);
+    border: 1px solid #EEEEEE;
     text-decoration: none;
 }
 
@@ -623,4 +629,11 @@ ul {
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
+}
+
+.link-decor:hover,
+.link-decor:focus {
+    background-color: var(--primary-white-color);
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
